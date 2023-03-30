@@ -23,7 +23,12 @@ public class linkedListBasic1
 		b.next=c; //5..>3..>9
 		c.next=d; //5..>3..>9..>8
 		d.next=e; //5..>3..>9..>8..>16
-		System.out.println(d.next.data);
+		System.out.println(a.data);
+		System.out.println(b.data);
+		System.out.println(c.data);
+		System.out.println(d.data);
+		System.out.println(e.data);
+		
 		
 		
 	}
